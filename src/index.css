@@ -8,23 +8,24 @@
 
 @layer base {
   :root {
-    --background: 220 25% 10%;
-    --foreground: 0 0% 98%;
+    --background: 0, 0%, 10%;
+    /* --foreground:0, 0%, 10%; */
+    --foreground:13, 68%, 63%;
 
-    --card: 220 25% 14%;
+    --card: 120% 17% 79%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 220 25% 14%;
+    --popover: 120% 17% 79%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 16 85% 60%;
+    --primary: 206, 16%, 91%;
     --primary-foreground: 220 25% 10%;
 
-    --secondary: 220 25% 18%;
+    --secondary: 63, 41%, 83%;
     --secondary-foreground: 0 0% 98%;
 
     --muted: 220 20% 20%;
-    --muted-foreground: 220 10% 60%;
+    --muted-foreground: 88, 13%, 53%;
 
     --accent: 16 85% 60%;
     --accent-foreground: 220 25% 10%;
@@ -39,9 +40,9 @@
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --gradient-vibrant: linear-gradient(135deg, hsl(16 85% 60%) 0%, hsl(35 90% 55%) 50%, hsl(16 85% 60%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(220 25% 12%) 0%, hsl(220 25% 8%) 100%);
-    --shadow-glow: 0 0 60px -12px hsl(16 85% 60% / 0.4);
+    --gradient-vibrant: linear-gradient(135deg, hsl(13, 68%, 63%) 0%, hsl(13, 68%, 63%) 50%, hsl(49, 91%, 48%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsla(234, 20%, 30%, 0.657) 0%, hsla(232, 25%, 42%, 0.905) 100%);
+    --shadow-glow: 0 0 60px -12px hsla(244, 19%, 9%, 0.4);
     --shadow-card: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
 
     /* Typography */

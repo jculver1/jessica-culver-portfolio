@@ -70,11 +70,18 @@ export default {
           from: { opacity: "0", transform: "translateY(20px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        colorShift: {
+          '0%': { color: '#e5e9ec' },   // red-500
+          '33%': { color: '#e17c60' },  // green-500
+          '66%': { color: '#E2C044' },  // blue-500
+          '100%': { color: '#e5e9ec' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.8s ease-out forwards",
+        "color-gradient-sync": "colorShift 6s ease-in-out infinite",
       },
     },
   },
